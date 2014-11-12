@@ -10,16 +10,16 @@ Software Requirements:
 To Work With Source Code Visual Studio 2010 is required
 .NET Framework 4.0
 
-Step By Step Instructions:
+Instructions:
 =============
 
  - Open/Download the Source Code
 
- ![Step-1](docs/Step1.png)
+ ![Step-1](https://github.com/sunilpottumuttu/MockServicesServer/blob/master/Docs/Step1.PNG)
 
  - Start the MockServicesServer.
 
- ![Step-2](docs/Step2.png) 
+ ![Step-2](https://github.com/sunilpottumuttu/MockServicesServer/blob/master/Docs/Step2.PNG) 
 
  - By Default the application start listening at port 3333.(The
     behaviour can be changed by changing app.config port value)
