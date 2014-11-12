@@ -10,14 +10,25 @@ Software Requirements:
 To Work With Source Code Visual Studio 2010 is required
 .NET Framework 4.0
 
-How to Work:
+Step By Step Instructions:
 =============
 
-Start the MockServicesServer.
-By Default the application start listening at port 3333.(The behaviour can be changed by changing app.config port value)
+ - Open/Download the Source Code
+
+ ![Step-1](docs/Step1.png)
+
+ - Start the MockServicesServer.
+
+ ![Step-2](docs/Step2.png) 
+
+ - By Default the application start listening at port 3333.(The
+    behaviour can be changed by changing app.config port value)
 Edit the MockServices.xml
-To Serve a Static Content for a given Request URL
+
+ - To Serve a Static Content for a given Request URL
+
 <Handler Name="Scenario1" Description="" RequestUrl="http://staticurl.com"> <Response HandlerType="Static" FileName="one.xml" /> </Handler>
 
-In Some scenarios you may need to modify the response for a request
+ - In Some scenarios you may need to modify the response for a request
+
 <Handler Name="Scenario2" Description="" RequestUrl="www.codeproject.com"> <Response HandlerType="FromAssembly" FileName="MockServices.Server.Scenario2Test,MockServices.Server.Scenario2Test.CodeProjectBlocker" /> </Handler>
